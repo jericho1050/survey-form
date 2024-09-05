@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em 0;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+
+fieldset {
+    /* border-bottom: 2px solid black; */
+    padding: 1em 1.5em;
+    background-color: #393E46;
+    margin: 20px 0
+}
+
+.personal-information label, .personal-information input {
+    display: block;
+}
+
+.personal-information input {
+    width: 100%;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+input[type="radio"] {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#dropdown {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    min-height: 7em;
+
+}
+
+legend {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+textarea, input {
+    background-color: #EEEEEE;
+}
+
+input[type="submit"] {
+    background-color: #00ADB5;
+    color: white;
+    font-weight: bolder;
+    padding: 0.8em 1.5em;
+    border: unset;
+
+    
+    
+}
